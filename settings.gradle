@@ -1,0 +1,3 @@
+include ':dtmf_generator'
+include ':app'
+rootProject.name = "DTMF  Tones"
