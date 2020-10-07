@@ -16,7 +16,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.MohammedSallout:dtmf_generator:1.0.0'
+	         implementation 'com.github.mohammedsalout:dtmf_generator:1.0.0'
 	}
 	
 Step 3. Usage
