@@ -21,13 +21,18 @@ Step 2. Add the dependency
 	
 Step 3. Usage
 
-You can user only number 0,1 , 2 , 3 , 4 , 5 , 6,7 ,8 or 9
+You can use only number 0,1 , 2 , 3 , 4 , 5 , 6,7 ,8 or 9
 or A,B,C,D or * or # only
 Also, you can use the comma(,) to set sleep time between your input elements, you can specify the sleep time using "commaWaiteTime"
 
- 
-     GenerateDTMF generateDTMF = new GenerateDTMF(yourContext ,string , audio_level , durationMs , sleepTimeMs ,commaWaiteTime);
-     generateDTMF.start();
+- "string_input" : your input " 0,1 , 2 , 3 , 4 , 5 , 6,7 ,8 or 9 or A,B,C,D or * or # only"
+- "audio_level" : to control audio level
+- "durationMs" : is a duration time of tones in millisecond
+- "sleepTimeMs" :The time period between each element (sleep time after every tone)
+- "commaWaiteTime" :the time of writing if you add (,) to your input ex : 1,2 
+
+      GenerateDTMF generateDTMF = new GenerateDTMF(yourContext ,string_input, audio_level , durationMs , sleepTimeMs ,commaWaiteTime);
+      generateDTMF.start();
 
 	
 	
